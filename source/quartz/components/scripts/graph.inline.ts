@@ -598,4 +598,11 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
   document.addEventListener("keydown", shortcutHandler)
   window.addCleanup(() => document.removeEventListener("keydown", shortcutHandler))
+
+  // --- AUTO TRIGGER CODE ---
+  if (window.location.pathname.endsWith("/graph") || window.location.pathname.endsWith("/graph/")) {
+    setTimeout(() => {
+      renderGlobalGraph()
+    }, 100)
+  }
 })
