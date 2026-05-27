@@ -1,7 +1,9 @@
 ---
-title: My GitHub Pages Notebook!
+title: Algorithmic Universalism
 ---
 
-Hello world!
+# Central Topic
 
-https://www.blogger.com/blog/post/edit/1336691975095495927/4561922522589967728
+The concepts related with algorithmic universalism
+* [[algorithmic_idealism]]
+* [[algorithmic_universalism]]
